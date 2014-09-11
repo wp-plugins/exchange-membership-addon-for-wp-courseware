@@ -32,7 +32,7 @@ For more info about Fly Plugins check out the following links:
 
 * [WP Courseware Learning Management System plugin for WordPress](http://wpcourseware.com/) - The best LMS online for WordPress.
 * [S3 Media Maestro](http://s3mediamaestro.com) - The best HTML 5 secure media player for WordPress that works hand in hand with Amazon S3.
-* [WP Permission Slip](http://wppermissionslip.com) - The best HTML 5 secure media player for WordPress that works hand in hand with Amazon S3.
+* [WP Permission Slip](http://wppermissionslip.com) - Complete event management for schools, churches, and more.
 * Other [Fly Plugins WordPress Plugins](http://flyplugins.com) by Fly Plugins.
 * Follow Fly Plugins on [Facebook](http://facebook.com/flyplugins) 
 * Check out the Fly Plugins [YouTube](http://www.youtube.com/flyplugins) YouTube channel.
