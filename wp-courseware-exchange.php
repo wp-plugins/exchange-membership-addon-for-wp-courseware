@@ -123,15 +123,14 @@ class WPCW_Exchange extends WPCW_Members
 		 */
 	protected function retroactive_assignment($level_ID)
 	{
+		$page = new PageBuilder(false);
 		//Get all transactions from Exchange
 		$transactions = it_exchange_get_transactions_for_product( $level_ID, $type='objects', $only_cleared_for_delivery=true );
 
 		//Check for transactions
-		if (!$transactions){
-			return;
-		}
-     	
-        $ids_per_product_all = array();
+		if ($transactions){
+
+			        $ids_per_product_all = array();
 
 		//Get IDs that are member of membership level
         foreach($transactions as $key => $transaction){
@@ -154,7 +153,16 @@ class WPCW_Exchange extends WPCW_Members
         	// Over to the parent class to handle the sync of data.
         	parent::handle_courseSync($customer_id, $userLevels);
         }
+		
+		$page->showMessage(__('All members were successfully retroactively enrolled into the selected courses.', 'wp_courseware'));
+            
         return;
+
+		}else{
+			 $page->showMessage(__('No existing customers found for the specified level.', 'wp_courseware'));
+		}
+     	
+
 	}
 	
 

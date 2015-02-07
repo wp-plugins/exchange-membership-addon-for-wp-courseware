@@ -2,9 +2,11 @@
 Contributors: flyplugins
 Donate link: http://flyplugins.com/donate
 Tags: fly plugins,iThemes,Exchange Membership,Exchange,wp courseware,wpcourseware,lms,lms for wordpress,learning management system,online ecourse,ecourse,flyplugins,wordpress learning management system
-Requires at least: 3.0
+Requires at least: 3.7
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.1
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 This plugin adds integration between iThemes Exchange Membership and WP Courseware which allows you to assign course(s) to membership levels for auto enrollment.
 
@@ -32,7 +34,6 @@ For more info about Fly Plugins check out the following links:
 
 * [WP Courseware Learning Management System plugin for WordPress](http://wpcourseware.com/) - The best LMS online for WordPress.
 * [S3 Media Maestro](http://s3mediamaestro.com) - The best HTML 5 secure media player for WordPress that works hand in hand with Amazon S3.
-* [WP Permission Slip](http://wppermissionslip.com) - Complete event management for schools, churches, and more.
 * Other [Fly Plugins WordPress Plugins](http://flyplugins.com) by Fly Plugins.
 * Follow Fly Plugins on [Facebook](http://facebook.com/flyplugins) 
 * Check out the Fly Plugins [YouTube](http://www.youtube.com/flyplugins) YouTube channel.
@@ -71,6 +72,9 @@ Click here to get [Exchange Membership](http://flyplugins.com/exchange-membershi
 2. This is the actual configuration screen where you can select courses that will be associated with a particular membership level
 
 == Changelog ==
+
+= 1.1 =
+* Fix: Updated retroactive function messaging
 
 = 1.0 =
 * Initial release
